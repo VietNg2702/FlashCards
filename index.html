@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul id="dataSetList" class="section-list">
+            <!-- List items will be populated by JavaScript -->
+        </ul>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Flashcards</button>
+        <div class="flashcard-container">
+            <div class="flashcard">
+                <div class="question">Question goes here</div>
+                <div class="answer">Answer goes here</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
