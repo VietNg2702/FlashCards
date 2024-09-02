@@ -11,8 +11,7 @@ let isAnimating = false;
 // Populate sidebar with data sets
 const dataSets = [
     { name: 'Default', file: 'data.json' },
-    { name: 'Set 1', file: 'data-set-1.json' },
-    { name: 'Set 2', file: 'data-set-2.json' },
+    { name: 'Interview', file: 'interview.json' }
     // Add more sets as needed
 ];
 
